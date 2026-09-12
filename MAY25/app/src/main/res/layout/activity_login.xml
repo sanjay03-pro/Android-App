@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/bg_dark">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_heart_logo"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAY25"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/pink_primary"
+        android:fontFamily="sans-serif-light"
+        android:letterSpacing="0.2"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our private space ❤️"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Your name"
+        android:visibility="gone"
+        android:inputType="textPersonName"
+        android:background="@drawable/bg_input"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Email address"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/bg_input"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_input"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Login"
+        android:textSize="16sp"
+        android:backgroundTint="@color/pink_primary"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:indeterminateTint="@color/pink_primary"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register"
+        android:textColor="@color/pink_light"
+        android:textSize="14sp"
+        android:padding="8dp"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryVariant">@color/pink_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/bg_surface</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="colorAccent">@color/pink_primary</item>
+    </style>
+</resources>

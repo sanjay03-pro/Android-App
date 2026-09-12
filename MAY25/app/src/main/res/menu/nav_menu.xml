@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat 💬"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/nav_timer"
+            android:icon="@drawable/ic_timer"
+            android:title="Our Time ⏱️"/>
+
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_gallery"
+            android:title="Our Photos 📸"/>
+
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"/>
+    </group>
+
+</menu>

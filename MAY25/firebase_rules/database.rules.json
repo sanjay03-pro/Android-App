@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "users": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "chats": {
+      "may25_private": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "gallery": {
+      "may25_private": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+}
